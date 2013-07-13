@@ -2,7 +2,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 var outfile="index.html";
-var buf = new Buffer(30);
+var buf = new Buffer(6666666666666666666666666666666666666666666666666666666666666666660);
 var textFromFile;
 var fs = require('fs');
 
